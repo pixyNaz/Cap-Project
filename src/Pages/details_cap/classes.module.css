@@ -1,0 +1,170 @@
+np.wrapper {
+    margin-left: 135px;
+    margin-right: 135px;
+    margin-top: 30px;
+}
+.details_cap {
+    justify-content: space-between;
+    display: flex;
+
+}
+.left_content {
+    max-width: 570px;
+}
+.big_img {
+    background: url('../../Photo/ganerely_cap.png') no-repeat center;
+    width: 570px;
+    height: 441px;
+    border: 1px solid #C4C4C4;
+    border-radius: 20px;
+}
+.small_img {
+    width: 170px;
+    height: 131px;
+    border: 1px solid #C4C4C4;
+    border-radius: 15px;
+}
+.down_img {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+.right_content {
+    font-weight: 500;
+}
+.name_cap {
+    float: right;
+    line-height: 29.26px;
+}
+.name_cap p {
+    font-size:18px;
+}
+.size {
+    font-size: 24px;
+    text-align: center;
+    display: flex;
+    margin-top: 102px;
+    margin-left: 30px;
+}
+.adapter {
+    padding-top: 8px;
+    width: 70px;
+    height: 48px;
+    background: #FFFFFF;
+    border: 1px solid #C4C4C4;
+    border-radius: 10px;
+    color: #847E7E;
+    margin-left: 30px;
+}
+.active {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+    border: 1px solid #000000;
+}
+.counter {
+    display: flex;
+    width: 119px;
+    height: 48px;
+    background: #FFFFFF;
+    border: 1px solid #847E7E;
+    border-radius: 10px;
+    font-size: 24px;
+    color: #847E7E;
+    justify-content: space-around;
+    padding-top: 8px;
+    margin-left: 60px;
+    margin-top: 60px;
+}
+.black {
+    color: black;
+}
+
+
+.sale {
+    color: yellow;
+    margin-top: 180px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+
+}
+.price_right_sale {
+    font-size: 36px;
+}
+.btn_test {
+    margin-top: 38px;
+}
+.btn {
+    border: none;
+    cursor: pointer;
+    width: 270px;
+    height: 70px;
+    border-radius: 15px;
+    background: #FDDB16;
+    font-size: 18px;
+    color: #000000;
+}
+.second_block {
+    margin-top: 80px;
+}
+.similar-items {
+    margin-top: 80px;
+    justify-content: center;
+    display: flex;
+}
+.box-brand {
+    justify-content: center;
+}
+.swiper {
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    margin-top: 109px;
+}
+.arrow {
+    margin-top: 105px;
+}
+.Photos {
+    justify-content: space-around;
+    width: 100%;
+    display: flex;
+    text-align: center;
+}
+.name-cap {
+
+    color: #847E7E;
+    font-size: 24px;
+}
+.brands {
+    display: flex;
+    justify-content: center;
+}
+.price {
+    font-weight: 700;
+    font-size: 18px;
+    color: #FDDB16;
+}
+.name-cap p {
+    font-size: 14px;
+}
+
+
+.btn_btn {
+    background-color: #FDDB16;
+    border: none;
+    display: flex;
+    justify-content: center;
+    border-radius: 8px;
+    align-items: center;
+    margin: auto;
+    margin-top: 52px;
+    width: 342px;
+    height: 29px;
+    font-size: 24px;
+    font-weight: 600;
+    color: #847E7E;
+    width: 442px;
+    height: 69px;
+}

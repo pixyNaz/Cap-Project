@@ -1,0 +1,46 @@
+a {
+    color: #555252;
+    text-decoration: none;
+    margin: 28px;
+}
+.App-header {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    border-bottom: 1px solid #847E7E;
+    margin: 30px 135px 80px 135px;
+}
+
+.header__section {
+    display: flex;
+    align-items: center;
+}
+
+.header__item {
+    font-size: 20px;
+}
+
+.headerlogo {
+    padding: 0px 79px 0px 0px;
+}
+
+.search {
+    padding: 10px;
+    width: 270px;
+    height: 40px;
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
+}
+
+.logo__loupe {
+    background: url('../../Photo/logo.svg') no-repeat center right 10px;
+}
+
+a:hover{
+    border-bottom: 2px solid #847E7E;
+}
+
+span{
+    width: 154px;
+}

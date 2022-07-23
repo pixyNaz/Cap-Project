@@ -1,0 +1,67 @@
+.Card-Items {
+    padding-top: 80px;
+    margin-left: 129px;
+    margin-right: 135px;
+}
+.Compact-down {
+    font-size: 36px;
+    float: right;
+}
+.Card-list {
+    margin-top: 100px;
+}
+.Card {
+    
+    width: 270px;
+    height: 298px;
+    background: #F3F2F2;
+    border-radius: 25px;
+    border: 1px solid rgba(196, 196, 196, 0.5);
+}
+.Card-img {
+    width: 236px;
+    height: 190px;
+    padding-top: 28px;
+    padding-left: 10px
+    
+}
+.Cap-title {
+    width: 270px;
+    height: 80px;
+    background: #FFF;
+    margin-top: 27px;
+    border-radius: 25px;
+    border: 1px solid rgba(196, 196, 196, 0.5);
+    padding-top: 23px ;
+    padding-left:22px ;
+    padding-bottom: 23px;
+    padding-right: 22px;
+    display: flex;
+    justify-content: space-between;
+}
+.Card-description {
+    color: #847E7E;
+}
+.Card-description p {
+    font-size: 13px;
+    padding-top: 4px;
+    line-height: 16px;
+    letter-spacing: -0.05em;
+}
+.Cap-price {
+    margin-top: 13px;
+    color: #FDDB16;
+}
+.switches {
+    display: flex;
+    justify-content: center;
+    margin: 73px;
+}
+.switches a {
+    justify-content: center;
+    margin-left: 70px ;
+}
+.switches-logo {
+    font-size: 23px;
+    margin-left: 34px;
+}

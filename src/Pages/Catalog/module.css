@@ -1,0 +1,13 @@
+.Mc-Laren {
+    background: url-("./src/Photo/fon-one.png") no-repeat;
+    width: 100%;
+    height: 60vh;
+    background-size: cover;
+
+}
+.new-serie h1 {
+    padding-top: 165px;
+    margin-left: 129px;
+    color: white;
+    font-size: 72px;
+}

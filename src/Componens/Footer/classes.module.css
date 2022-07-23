@@ -1,0 +1,50 @@
+.Footer-wrapper {
+    display: flex;
+    background: #E5E5E5;
+    justify-content: space-between;
+}
+.Footer-section {
+    display: flex;
+    align-items: center;
+
+}
+.logo-footer {
+    align-items: center;
+    display: flex;
+
+}
+.caption {
+    margin-left: 8px;
+}
+.logo-footer p {
+    font-size: 10px;
+}
+.logo-brand {
+    display: flex;
+}
+.logo {
+    width: 35px;
+    height: 35px;
+    border: 1.5px solid #0A142F ;
+    border-radius: 50%;
+    background: white;
+
+
+}
+.logo.linkedin {
+    background: url('../../Photo/logo-linkedn.svg') no-repeat center;
+    z-index: 10000000;
+}
+
+.logo.facebook{
+    background: url('../../Photo/logo-facebook.svg') no-repeat center;
+}
+
+.logo.twitter{
+    background: url('../../Photo/logo-twitter.svg') no-repeat center;
+}
+.logo:hover {
+    background: #FDDB16;
+;
+
+}

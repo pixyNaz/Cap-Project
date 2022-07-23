@@ -1,0 +1,11 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  margin-left: 135px;
+  margin-right: 135px;
+  margin-top: 30px;
+  background: #E5E5E5;
+}
