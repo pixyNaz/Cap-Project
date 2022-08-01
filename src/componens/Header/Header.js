@@ -1,10 +1,11 @@
 import React from 'react'
-import './classes.module.css'
-import logo from '../../Photo/logo.svg'
-import logo__basket from '../../Photo/logo__basket.svg'
+import './Header.css'
+import logo from '../../photo/logo.svg'
+import logo__basket from '../../photo/logo__basket.svg'
 
 const AppHeader = () => {
     return (
+        <div>
         <div className='App-header'>
             <div className='header__section'>
                 <div className='header__item header/logo'>
@@ -17,16 +18,21 @@ const AppHeader = () => {
             <div className='header__section'>
                 <div className='header__item'>
                     <form className='header__item input__search'>
-                        <input type='text' className='search logo__loupe'/>
+                        <input type='text' className=' search logo__loupe'/>
                     </form>
                 </div>
                 <div className='header__item'>
-                    <a href='https://google.com' className="logo__basket" ><img src={logo__basket} alt=''  /></a>
+                    <a href='https://google.com' className="logo__basket" >
+                        <img src={logo__basket} alt=''  /></a>
                 </div>
             </div>
-
         </div>
-
+                <div className="menu">
+                    <a href="/">Home</a>
+                    <a href="/catalog">Catalog</a>
+                    <a href="/details" className="Link">Детали продукта</a>
+                </div>
+        </div>
 
 
 

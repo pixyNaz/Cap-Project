@@ -1,4 +1,4 @@
-np.wrapper {
+.wrapper {
     margin-left: 135px;
     margin-right: 135px;
     margin-top: 30px;
@@ -12,7 +12,7 @@ np.wrapper {
     max-width: 570px;
 }
 .big_img {
-    background: url('../../Photo/ganerely_cap.png') no-repeat center;
+    background: url('../../photo/ganerely_cap.png') no-repeat center;
     width: 570px;
     height: 441px;
     border: 1px solid #C4C4C4;
@@ -40,28 +40,29 @@ np.wrapper {
     font-size:18px;
 }
 .size {
-    font-size: 24px;
     text-align: center;
     display: flex;
     margin-top: 102px;
     margin-left: 30px;
 }
 .adapter {
-    padding-top: 8px;
+    justify-content: center;
+    display: flex;
+    font-size: 25px;
     width: 70px;
     height: 48px;
     background: #FFFFFF;
-    border: 1px solid #C4C4C4;
     border-radius: 10px;
     color: #847E7E;
     margin-left: 30px;
+    border: 1px solid #C4C4C4;
 }
-.active {
-    font-weight: 700;
+.adapter.adapter-active {
+    font-weight: 500;
     font-size: 24px;
     line-height: 29px;
     color: #000000;
-    border: 1px solid #000000;
+    border: 3px solid #000000;
 }
 .counter {
     display: flex;
@@ -83,7 +84,7 @@ np.wrapper {
 
 
 .sale {
-    color: yellow;
+    color: #FDDB16;
     margin-top: 180px;
     display: flex;
     flex-direction: column;
@@ -105,6 +106,20 @@ np.wrapper {
     background: #FDDB16;
     font-size: 18px;
     color: #000000;
+}
+btn.add {
+    background-color: #40c0f0;
+    width: 1.5rem;
+}
+.btn.remove {
+    background-color: #f04040;
+    width: 1.5rem;
+}
+btn.badge {
+    background-color: #f04040;
+    border: none;
+    color: #FFFFFF;
+    width: 1.5rem;
 }
 .second_block {
     margin-top: 80px;
@@ -160,8 +175,6 @@ np.wrapper {
     align-items: center;
     margin: auto;
     margin-top: 52px;
-    width: 342px;
-    height: 29px;
     font-size: 24px;
     font-weight: 600;
     color: #847E7E;

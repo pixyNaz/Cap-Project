@@ -1,5 +1,5 @@
 import React from 'react'
-import './module.css';
+import './Catalog.css';
 
 const McLaren = () => {
     return (

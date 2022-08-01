@@ -1,7 +1,11 @@
+.Footer {
+    margin: 28px;
+    border-top: solid #EEEEEE;
+}
 .Footer-wrapper {
     display: flex;
-    background: #E5E5E5;
     justify-content: space-between;
+    margin-top: 28px;
 }
 .Footer-section {
     display: flex;
@@ -17,7 +21,7 @@
     margin-left: 8px;
 }
 .logo-footer p {
-    font-size: 10px;
+    font-size: 14px;
 }
 .logo-brand {
     display: flex;
@@ -32,19 +36,24 @@
 
 }
 .logo.linkedin {
-    background: url('../../Photo/logo-linkedn.svg') no-repeat center;
+    background: url('../../photo/logo-LinkedIn.svg') no-repeat center;
     z-index: 10000000;
 }
 
 .logo.facebook{
-    background: url('../../Photo/logo-facebook.svg') no-repeat center;
+    background: url('../../photo/logo-facebook.svg') no-repeat center;
 }
 
 .logo.twitter{
-    background: url('../../Photo/logo-twitter.svg') no-repeat center;
+    background: url('../../photo/logo-twitter.svg') no-repeat center;
 }
 .logo:hover {
-    background: #FDDB16;
-;
-
+    background-color: #FDDB16;
 }
+.cursive {
+    text-align: center;
+}
+
+
+
+

@@ -1,5 +1,4 @@
 a {
-    color: #555252;
     text-decoration: none;
     margin: 28px;
 }
@@ -8,7 +7,7 @@ a {
     justify-content: center;
     padding: 10px;
     border-bottom: 1px solid #847E7E;
-    margin: 30px 135px 80px 135px;
+    margin: 30px 135px 44px ;
 }
 
 .header__section {
@@ -34,7 +33,7 @@ a {
 }
 
 .logo__loupe {
-    background: url('../../Photo/logo.svg') no-repeat center right 10px;
+    background: url('../../photo/loupe.svg') no-repeat center right 10px;
 }
 
 a:hover{
@@ -44,3 +43,13 @@ a:hover{
 span{
     width: 154px;
 }
+.menu {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 18px;
+    margin-left: 134px;
+}
+.Link {
+    color: #FDDB16;
+}
+

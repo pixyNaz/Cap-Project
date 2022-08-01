@@ -1,18 +1,23 @@
 import React from "react";
 import './App.css';
-import DetailsCap from "./Pages/details_cap/Details_cap";
-import Header from "./Componens/Header/Header";
-import Catalog from "./Pages/Catalog/Catalog";
-import Footer from "./Componens/Footer/Footer";
+import DetailsCap from "./pages/details_cap/Details_cap";
+import Header from "./componens/Header/Header";
+import Catalog from "./pages/Catalog/Catalog";
+import HomePage from "./pages/home_page/HomePage";
+import Footer from "./componens/Footer/Footer";
+import {BrowserRouter, Route, Routes} from "react-router-dom";
 
 function App() {
   return (
-    <div>
+    <BrowserRouter>
         <Header/>
+        <Routes>
+            <Route path="/" element={<HomePage/>}/>
+            <Route path="/catalog" element={<Catalog />}/>
+            <Route path="/details" element={<DetailsCap />}/>
+        </Routes>
         <Footer/>
-        <Catalog/>
-      <DetailsCap/>
-    </div>
+    </BrowserRouter>
   );
 }
 

@@ -1,17 +1,38 @@
-import React from 'react'
-import './classes.module.css'
-import back_cap from '../../Photo/back_cap.png'
-import side_cap from '../../Photo/side_cap.png'
-import inside_cap from '../../Photo/inside_cap.png'
-import white_cap from '../../Photo/white-cap.png'
-import red_cap from '../../Photo/red-cap.png'
-import blue_cap from '../../Photo/blue-cap.png'
-import VectorRight from '../../Photo/VectorRight.png'
-import VectorLeft from '../../Photo/VectorLeft.png'
-
+import React, {useState, useEffect} from 'react'
+import './Details_cap.css'
+import back_cap from '../../photo/back_cap.png'
+import side_cap from '../../photo/side_cap.png'
+import inside_cap from '../../photo/inside_cap.png'
+import white_cap from '../../photo/white-cap.png'
+import red_cap from '../../photo/red-cap.png'
+import blue_cap from '../../photo/blue-cap.png'
+import VectorRight from '../../photo/VectorRight.png'
+import VectorLeft from '../../photo/VectorLeft.png'
 
 const DetailsCap = () => {
+    const [toggleState, setToggleState] = useState(1);
+    const [quantity, setCount] = useState(0);
+
+    useEffect(() => {
+        console.log(toggleState)
+    }, [toggleState])
+
+    const toggleAdapter = (index) => {
+        setToggleState(index)
+    }
+    const decrement = () => {
+        if(quantity > 1){
+            setCount(prevCount => prevCount - 1);
+        }
+    }
+    const increment = () => {
+        if(quantity < 100){
+            setCount(prevCount => prevCount + 1);
+        }
+    }
+
     return (
+        <div className="container">
         <div className='wrapper'>
             <div className='details_cap'>
                 <div className='left_content'>
@@ -34,21 +55,27 @@ const DetailsCap = () => {
                         <p>BLACK SNAPBACK 59 FIFTY</p>
                     </div>
                     <div className='size'>
-                        <div className='adapter'>S</div>
-                        <div className='adapter'>M</div>
-                        <div className='adapter active'>L</div>
-                        <div className='adapter'>XL</div>
-
+                        <input className={toggleState === 1 ? "adapter adapter-active" : "adapter"}
+                               type="button" value='S' onClick={() => toggleAdapter(1)}/>
+                        <input className={toggleState === 2 ? "adapter adapter-active" : "adapter"}
+                               type="button" value='M' onClick={() => toggleAdapter(2)}/>
+                        <input className={toggleState === 3 ? "adapter adapter-active" : "adapter"}
+                               type="button" value='L' onClick={() => toggleAdapter(3)}/>
+                        <input className={toggleState === 4 ? "adapter adapter-active" : "adapter"}
+                               type="button" value='XL' onClick={() => toggleAdapter(4)}/>
                     </div>
                     <div className='counter'>
-                        <div className='minus black'>-</div>
-                        <div className='count'>1</div>
-                        <div className='plus black'>+</div>
+                        <div className='minus black' onClick={decrement}>
+                            <button>-</button></div>
+                        <div className='count' >{quantity}</div>
+                        <div className='plus black' onClick={increment}>
+                            <button>+</button></div>
                     </div>
                     <div className='sale'>
                         <div className='price_right_sale'>3200сом</div>
                         <div className='btn_test'>
-                            <button className='btn'>Добавить в корзину</button>
+                            <button className='btn' >
+                                Добавить в корзину</button>
                         </div>
                     </div>
                 </div>
@@ -95,7 +122,7 @@ const DetailsCap = () => {
                 <p>Товар добавлен в корзину</p>
             </div>
         </div>
-
+    </div>
 
     )
 }
